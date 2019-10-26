@@ -1,0 +1,42 @@
+body {
+    font: 12px Arial;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column-reverse
+}
+
+button {
+    width: 5rem;
+}
+
+path {
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    height: 28px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+#filter {
+  margin-left: 725px;
+  margin-top: 30px;
+  font-size: 12pt;
+}
